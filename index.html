@@ -1,0 +1,127 @@
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="icon" href="favicon.ico">
+        <title>MSTLoc</title>
+        <link href="js/about.642ed09a.js" rel="prefetch">
+        <link href="css/app.88ea8f8f.css" rel="preload" as="style">
+        <link href="css/chunk-vendors.ee14b75c.css" rel="preload" as="style">
+        <link href="js/app.f291d21b.js" rel="preload" as="script">
+        <link href="js/chunk-vendors.2ce32b35.js" rel="preload" as="script">
+        <link href="css/chunk-vendors.ee14b75c.css" rel="stylesheet">
+        <link href="css/app.88ea8f8f.css" rel="stylesheet">
+    </head>
+<body data-new-gr-c-s-check-loaded="14.1068.0" data-gr-ext-installed="">
+    <noscript><strong>We're sorry but subloc doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript>
+    <div id="app" data-v-app="">
+        <div class="cover-container">
+            <nav class="navbar shadow-sm navbar-light fixed-top bg-light justify-content-between px-4 mx-10">
+                <a class="navbar-brand ml-">
+                    <a href="#/" class="router-link-active router-link-exact-active" aria-current="page" style="text-decoration: none; color: black;">MSTLoc</a>
+                </a>
+                <ul class="list-inline mb-0">
+                    <li class="list-inline-item">
+                        <a href="#/home" class="" style="text-decoration: none; color: black;">Home</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#/server" class="" style="text-decoration: none; color: black;">Server</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#/help" class="" style="text-decoration: none; color: black;">Help</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#/contact" class="" style="text-decoration: none; color: black;">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <main class="container pt-4 mb-5" data-v-87725578="">
+            <div class="row mt-5 shadow-sm" data-v-87725578="">
+                <div class="col-md bg-light" data-v-87725578="">
+                    <article class="blog-post mt-5 mb-1" data-v-87725578="">
+                        <h2 class="blog-post-title font-italic border-bottom" data-v-87725578="" style="font-size: 24px;">
+                            <strong data-v-87725578> 
+                                "MSTloc: a novel multi-scale end-to-end deep learning model for the imbalanced multi-label protein subcellular localization prediction based on immunohistochemistry images."
+                            </strong>
+                            <br data-v-87725578="">
+                            <br data-v-87725578="">
+                            <br data-v-87725578=""></h2>
+                            <p data-v-87725578=""></p>
+                            <p class="text-start" data-v-87725578>
+                                "The protein subcellular localization provides important information for understanding protein functions for human biology and disease. With the rapid increase of the amount of protein data, the approaches of extracting hand-crafted features from IHC images are not competent for multi-label protein subcellular localization. Although deep neural network has shown impressive performance, its application to protein subcellular localization based on the IHC images has not been sufficiently explored. In this study, we develop MSTLoc, a novel multi-scale end-to-end Vision Transformer model to identify the protein subcellular locations in the imbalanced multi-label IHC images dataset. In our MSTLoc, a deep convolution network (CNN) is employed to extract multi-scale features from the IHC images, and the receptive field block is used to improve the feature discriminability and robustness. We aggregate the high-level features and low-level features via feature fusion module to sufficiently exploit the dependencies amongst various subcellular locations. Moreover, the Vision Transformer (ViT) is utilized to model the relationship amongst the features and enhance the feature representation ability. We demonstrate that the proposed MSTLoc achieves more superior performance than current state-of-the-art models in multi-label subcellular location prediction. In addition, as compared with the hand-crafted features, the deep features learnt from our model can present more accurate prediction, demonstrating the power of our model in learning discriminative information. Further, we prove the superiority of the multi-scale features through the experiments of visualization and interpretation. Finally, we employ the MSTLoc to identify protein biomarkers reported to be closely involved with cancer development. The implementation for the proposed method is available at http://server.wei-group.net/MSTLoc."
+                            </p>
+                            <hr data-v-87725578="">
+                        </article>
+                        <p class="text-start" data-v-87725578>
+                            "To facilitate the use of our method, we establish an online predictive platform as the implementation of the proposed MSTLoc."
+                        </p>
+                        <img src="img/mst.deca3087.jpg" class="img-fluid" alt="MSTLoc" data-v-87725578="">
+                        <hr data-v-87725578="">
+                        <p class="fw-bold fs-5 text-start" data-v-87725578="">Dataset and code</p>
+                        <div class="download" data-v-87725578="">
+                            <table class="table" data-v-87725578="">
+                                <thead data-v-87725578="">
+                                    <tr class="col" data-v-87725578="">
+                                        <th style="color:#5bb75b;" class="col-6" data-v-87725578="">Dataset</th>
+                                        <th style="color:#5bb75b;" data-v-87725578="">Address</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-v-87725578="">
+                                    <tr data-v-87725578="">
+                                        <th data-v-87725578="">The training set</th>
+                                        <th data-v-87725578=""><a href="data/train.csv" data-v-87725578="">Download</a></th>
+                                    </tr>
+                                    <tr data-v-87725578="">
+                                        <th data-v-87725578="">The testing set</th>
+                                        <th data-v-87725578=""><a href="data/test.csv" data-v-87725578="">Download</a></th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table" data-v-87725578="">
+                                <thead data-v-87725578="">
+                                    <tr class="col" data-v-87725578="">
+                                        <th style="color:#5bb75b;" class="col-6" data-v-87725578="">Model</th>
+                                        <th style="color:#5bb75b;" data-v-87725578="">Address</th>
+                                    </tr>
+                                </thead>
+                                <tbody data-v-87725578="">
+                                    <tr data-v-87725578="">
+                                        <th data-v-87725578="">The MSTLoc code</th>
+                                        <th data-v-87725578=""><a href="data/MSTLoc.7z" data-v-87725578="">Download</a></th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <hr data-v-87725578="">
+                        <p class="fw-bold fs-5 text-start" data-v-87725578="">If you think MSTLoc is useful, please kindly cite the following paper:
+
+                        </p>
+                        <p class="text-start" data-v-87725578="">Multi-scale deep learning for the imbalanced multi-label protein subcellular localization prediction based on immunohistochemistry images
+
+                        </p>
+                        <p class="fw-bold fs-5 text-start" data-v-87725578="">Webserver update:</p>
+                        <p class="text-start" data-v-87725578="">July, 28th, 2021: the first version of MSTLoc server was established.</p>
+                    </div>
+                </div>
+            </main>
+            <footer class="text-center shadow-lg fixed-bottom mt-4 py-2 text-secondary bg-light mt-6" style="background-color: rgb(40, 40, 40);">
+                <small>
+                    <ul class="list-inline mb-0 mx-5">
+                        <li class="list-inline-item" style="text-align:left;"> Server built for <a href="#">MSTLoc</a> by sduer.
+                        </li>
+                    </ul>
+                    <ul class="list-inline mb-0 mx-5">
+                        <li class="list-inline-item"><a href="#">About us</a>
+                        </li>
+                    </ul>
+                </small>
+            </footer>
+        </div>
+        <script src="js/chunk-vendors.2ce32b35.js"></script>
+        <script src="js/app.f291d21b.js"></script>
+    </body>
+    <grammarly-desktop-integration data-grammarly-shadow-root="true">
+    </grammarly-desktop-integration>
+    </html>
